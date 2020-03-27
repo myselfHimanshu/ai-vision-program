@@ -24,7 +24,7 @@ Working on a specific color feature may be useful when you are asking a question
 
 Let's take this image as an example to explain what a channel can be.
 
-![](https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/2QQOex4/deep-learning-animated-word-cloud_s8oppv-il_thumbnail-full07.png)
+![](https://ak7.picdn.net/shutterstock/videos/23071327/thumb/12.jpg)
 
 Now imagine that we have 26 channels for the given image. Let's say our channels are A-Z, as there are 26 alphabets so 26 channels.
 
