@@ -256,13 +256,15 @@ The process of finding solution is incremental, starting from a point in sapce o
 
 Neural Networks are trained using these kind of algorithms. 
 
-> Training algorithms for deep learning models are usually iterative in nature and thus require the user to specify some initial point from which to begin the iterations. Moreover, training deep models is a sufficiently difficult task that most algorithms are strongly affected by the choice of initialization.
+> Training algorithms for deep learning models are usually iterative in nature and thus require the user to specify some initial point from which to begin the iterations. Moreover, training deep models is a sufficiently difficult task that most algorithms are strongly affected by the choice of initialization.<br>
 > Perhaps the only property known with complete certainty is that the initial parameters need to “break symmetry” between diﬀerent units. If two hidden units with the same activation function are connected to the same inputs, then these units must have diﬀerent initial parameters. If they have the same initial parameters, then a deterministic learning algorithm applied to a deterministic costant model will constantly update both of these units in the same way.
 - page 296,297, [deep learning book](https://www.deeplearningbook.org/contents/optimization.html).
 
 A careful initialization of the network can speed up the learning process.
 
 ## What happens during the training of a DNN?
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=f^*" title="\Large x=f^*" />
 
 The goal of a feedforward network is to approximate some function $f^∗$. For a classiﬁer, $y=f^∗(x)$ maps an input x to a category y.
 
