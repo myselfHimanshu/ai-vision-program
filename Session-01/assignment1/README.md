@@ -265,14 +265,14 @@ A careful initialization of the network can speed up the learning process.
 ## What happens during the training of a DNN?
 
 The goal of a feedforward network is to approximate some function 
-<img src="https://latex.codecogs.com/svg.latex?f^*" title="f^*" />. 
+<img src="https://latex.codecogs.com/svg.latex?;f^*" title="f^*" />. 
 For a classiﬁer, 
-<img src="https://latex.codecogs.com/svg.latex?y=f^*(x)" title="y=f^*(x)" /> 
+<img src="https://latex.codecogs.com/svg.latex?;y=f^*(x)" title="y=f^*(x)" /> 
 maps an input x to a category y.
 
 We have our input images which are feeded into a network, these networks are ment to find the weights at each layer of a neural network, where in each layers output is calculated with some compute function of weights and output of previous layer.
 
-![](https://github.com/myselfHimanshu/data-summit-blog/raw/master/images/cnn_blog_01/image12.png)
+![](https://github.com/myselfHimanshu/data-summit-blog/raw/master/images/cnn_blog_01/image12.jpeg)
 
 These weights are initialized randomly at first.
 
