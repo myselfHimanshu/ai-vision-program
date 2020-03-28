@@ -281,7 +281,7 @@ For an example, let's say we need to classify whether an image is X or O. Now a 
 
 What CNN does is, it matches parts of the image rather than comparing two images directly. So it breaks down the image into smaller parts or features.
 
-So, to extract these features we have a feature extractor known as kernel.
+So, to extract these features we have a feature extractors known as kernels. The more kinds of kernels we have, the better is our prediction. So, the task of a network is to find right sets of extractor values to make out prediction right.
 
 1. We line up these kernels over image patch. 
 2. Multiply each image pixel by corresponding kernel pixel.
