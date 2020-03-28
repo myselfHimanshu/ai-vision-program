@@ -45,9 +45,9 @@ Now, when I asked you to filter out just <i>a</i> or extract just a single alpha
 ><i>filter</i>,
 > <i>weights</i> 
 
-> Each kernel gives us a channel. <br>
+> Each kernel gives us a channel. <br><br>
 > What is a channel? <br>
-> >Channel is a set of relatable features.
+> >Channel is a set of relatable features.<br>
 > What is Kernel? <br>
 > >Kernel is a feature extractor.
 
