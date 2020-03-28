@@ -1,6 +1,7 @@
 # Assignment : Session 1
 
 ## What are Channels and Kernels?
+
 Channel is a convolutional term used to refer to certain feature of an image. In practicality, an image from standard digital camera will have 3 channels (RGB (red, green, blue)). An image printed on a newspaper has 4 channels (CMYK). You can imagine three 2d matrices over each other, each having pixels values in range of [0,255].
 
 ![](https://static.packt-cdn.com/products/9781789613964/graphics/e91171a3-f7ea-411e-a3e1-6d3892b8e1e5.png)
@@ -47,6 +48,8 @@ Now, when I asked you to filter out just <i>a</i> or extract just a single alpha
 > Each kernel gives us a channel. <br>
 > What is a channel? <br>
 > >Channel is a set of relatable features.
+> What is Kernel? <br>
+> >Kernel is a feature extractor.
 
 ## Why should we (nearly) always use 3x3 kernels?
 
@@ -74,7 +77,7 @@ The answer to above question lies in another question,
 |            9            |                   (3x3)*(4) = 36                   |                     (9x9) = 81                      |
 |           11            |                   (3x3)*(5) = 45                   |                    (11x11) = 121                    |
 
-The above table tells us why using 3x3 kernel is better than the other size kernels.
+The above table tells us why using 3x3 kernel is better than the other size kernels, as number of parameters are less which will help in traingin our network faster.
 
 Less parameters means, model will take less time to train on. It will be faster. We need to build an CNN architecture with less parameters and that gives us best result.
 
@@ -257,7 +260,7 @@ The process of finding solution is incremental, starting from a point in sapce o
 Neural Networks are trained using these kind of algorithms. 
 
 > Training algorithms for deep learning models are usually iterative in nature and thus require the user to specify some initial point from which to begin the iterations. Moreover, training deep models is a sufficiently difficult task that most algorithms are strongly affected by the choice of initialization.<br>
-> Perhaps the only property known with complete certainty is that the initial parameters need to “break symmetry” between diﬀerent units. If two hidden units with the same activation function are connected to the same inputs, then these units must have diﬀerent initial parameters. If they have the same initial parameters, then a deterministic learning algorithm applied to a deterministic costant model will constantly update both of these units in the same way.
+> Perhaps the only property known with complete certainty is that the initial parameters need to `break symmetry` between diﬀerent units. If two hidden units with the same activation function are connected to the same inputs, then these units must have diﬀerent initial parameters. If they have the same initial parameters, then a deterministic learning algorithm applied to a deterministic costant model will constantly update both of these units in the same way.
 - page 296,297, [deep learning book](https://www.deeplearningbook.org/contents/optimization.html).
 
 A careful initialization of the network can speed up the learning process.
@@ -270,15 +273,34 @@ For a classiﬁer,
 <img src="https://latex.codecogs.com/svg.latex?;y=f^*(x)" title="y=f^*(x)" /> 
 maps an input x to a category y.
 
-We have our input images which are feeded into a network, these networks are ment to find the weights at each layer of a neural network, where in each layers output is calculated with some compute function of weights and output of previous layer.
+When you feed a face image to CNN, they learn some basic things like edges, dots, bright or dark spots in the beginning. As it is multilayer neural network, in second layer it will start recognizing eyes, mouth and in further layers it will start recognizing faces.
+
+For an example, let's say we need to classify whether an image is X or O. Now a machine can't directly compare two images and say it is X or O, as the letter can be anywhere in the image. And for us, objects should not be concerned with the precise location in an image. This is where CNN comes in.
+
+What CNN does is, it matches parts of the image rather than comparing two images directly. So it breaks down the image into smaller parts or features.
+
+So, to extract these features we have a feature extractor known as kernel.
+
+1. We line up these kernels over image patch. 
+2. Multiply each image pixel by corresponding kernel pixel.
+3. Add them up and normalize and store the output (feature map).
+4. These feature map are again passed through other sets of kernels.
+4. This step is repeated till our predicted layer.
 
 ![](https://github.com/myselfHimanshu/data-summit-blog/raw/master/images/cnn_blog_01/image12.jpeg)
 
-These weights are initialized randomly at first.
+Now, in the beginning, these kernels are initialized with random values. So when we arrive at predicted layer, we take this predicted value and expected value and compute the error. As kernels were initialized with random values the error will be high.
 
-First layer's task is to find edges and gradients, then second layer's task is to find textures in patterns which are formed by the combination of features of its previous layer and another set of weights and so on. Each of the layers output is passed to its next layer upto till prediction layer. 
+How do we arrive at one single value at the end when we have nxn image size ? <br>
+The answer is, we create an architecture of neural network, where in layers will be downsampling these feature map.
 
-Then the network compares the result of predicted layer with the expected outputs and calculate loss with them. This loss is backpropagated to the network, where in the network adjust its weight with gradient descent. This process of forward feeding of the outputs, backpropagating of calucated loss and updation of parameters goes on till the loss keeps on reducing.
+So, the networks task is to find the values of kernels, which will extract the relevant features and minizes the error. 
 
+How will it minimize the error ?<br>
+Backpropagation.
 
+This error is backpropagated to the network to adjust the values of kernel. The algorithm to do so is Gradient Descent. 
 
+Think of this way, you have an error function, which is giving you some high value output. Now, you need to minimize this error. To do so, we need to find a value of where this function will be minimum. How do we do that ? differential calculus. We find the value and propagate it back, where the parameters will now be adjusted accordingly by which error will be minimized that the last error output.
+
+This feed forwarding step and backpropagtion step happens for some n times, till the error is minimised and difference between last error output value and current error output value is also minimum.
