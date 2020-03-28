@@ -291,10 +291,10 @@ So, to extract these features we have a feature extractor known as kernel.
 
 ![](https://github.com/myselfHimanshu/data-summit-blog/raw/master/images/cnn_blog_01/image12.jpeg)
 
-Now, in the beginning, these kernels are initialized with random values. So when we arrive at predicted layer, we take this predicted value and expected value and compute the error. As kernels were initialized with random values the error will be high.
+Now, in the beginning, these kernels are initialized with random values. So when we arrive at predicted layer, we take this predicted value and expected value and compute the error. As kernels were initialized with random values, the error will be high.
 
 How do we arrive at one single value at the end when we have nxn image size ? <br>
-The answer is, we create an architecture of neural network, where in layers will be downsampling these feature map.
+The answer is, we create an architecture of neural network, where in layers will be downsampling these feature maps.
 
 So, the networks task is to find the values of kernels, which will extract the relevant features and minizes the error. 
 
@@ -303,6 +303,6 @@ Backpropagation.
 
 This error is backpropagated to the network to adjust the values of kernel. The algorithm to do so is Gradient Descent. 
 
-Think of this way, you have an error function, which is giving you some high value output. Now, you need to minimize this error. To do so, we need to find a value of where this function will be minimum. How do we do that ? differential calculus. We find the value and propagate it back, where the parameters will now be adjusted accordingly by which error will be minimized that the last error output.
+Think of this way, you have an error function, which is giving you some high value output. Now, you need to minimize this error. To do so, we need to find a value of where this function will be minimum. How do we do that ? differential calculus. We find the value and propagate it back, where the parameters will now be adjusted accordingly which will therefore minimizes our error.
 
 This feed forwarding step and backpropagtion step happens for some n times, till the error is minimised and difference between last error output value and current error output value is also minimum.
