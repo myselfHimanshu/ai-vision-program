@@ -48,3 +48,13 @@ Epoch < 20
 
 Test Accuracy : 99.440%
 
+### MODEL 06
+
+<p align="center">
+  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-04/images/model-06.png"/>
+</p>
+
+Epoch < 20
+
+Test Accuracy : 99.450%
+
