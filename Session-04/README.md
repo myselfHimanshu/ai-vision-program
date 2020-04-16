@@ -10,7 +10,9 @@ AIM :
 
 ### MODEL 02
 
-![](https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-04/images/model-02.png)
+<p align="center">
+  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-04/images/model-02.png"/>
+</p>
 
 Epoch < 20
 
@@ -18,7 +20,9 @@ Test Accuracy : 99.440%
 
 ### MODEL 03
 
-![](https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-04/images/model-03.png)
+<p align="center">
+  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-04/images/model-03.png"/>
+</p>
 
 Epoch < 20
 
@@ -26,7 +30,9 @@ Test Accuracy : 99.460%
 
 ### MODEL 04
 
-![](https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-04/images/model-04.png)
+<p align="center">
+  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-04/images/model-04.png"/>
+</p>
 
 Epoch < 20
 
@@ -34,7 +40,9 @@ Test Accuracy : 99.460%
 
 ### MODEL 05
 
-![](https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-04/images/model-05.png)
+<p align="center">
+  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-04/images/model-05.png"/>
+</p>
 
 Epoch < 20
 
