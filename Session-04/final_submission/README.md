@@ -8,7 +8,7 @@
 
 ## Result :
 
-- Model Submitted : MNIST_model_final.ipynb
+- Model Submitted : MNIST_model_04.ipynb
 - Highest Test Accuracy = 99.460%
 - Total Parameters Used = 13,402
 - Epochs runs = 20
