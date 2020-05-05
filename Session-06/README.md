@@ -1,4 +1,4 @@
-# Batch Normalization and Regularization
+# Batch Normalization and Regularization on MNIST Dataset Pytorch
 
 ### Tasks
 
