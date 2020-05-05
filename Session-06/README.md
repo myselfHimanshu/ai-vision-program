@@ -1,5 +1,7 @@
 # Batch Normalization and Regularization
 
+### Tasks
+
 - without L1/L2 with BN
 - without L1/L2 with GBN
 - with L1 with BN
@@ -8,6 +10,10 @@
 - with L2 with GBN
 - with L1 and L2 with BN
 - with L1 and L2 with GBN
+
+### Notebook Link
+
+- [regularization_notebook](https://github.com/myselfHimanshu/ai-vision-program/blob/master/Session-06/notebooks/MNIST_model_regularization.ipynb)
 
 ### Validation Accuracy Graph
 
