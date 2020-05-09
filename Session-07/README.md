@@ -53,11 +53,15 @@
 
 #### Losses
 
-![network](https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-07/images/validation_loss.png)
+<p align="center">
+  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-07/images/validation_loss.png"/>
+</p>
 
 #### Accuracy
 
-![network](https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-07/images/validation_acc.png)
+<p align="center">
+  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-07/images/validation_acc.png"/>
+</p>
 
 ### Misclassified Images
 
