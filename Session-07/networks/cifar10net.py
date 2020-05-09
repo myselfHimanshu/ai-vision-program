@@ -63,6 +63,7 @@ class Cifar10Net(nn.Module):
             depthwise_separable_conv(64, 64),                #(-1,16,16,64)>(-1,16,16,64)>20
             nn.BatchNorm2d(64),
             nn.ReLU(),
+            nn.Dropout(0.1),
         )
 
         self.pool2block = nn.Sequential(
@@ -80,6 +81,7 @@ class Cifar10Net(nn.Module):
             nn.Conv2d(64, 64, 3, padding=0, bias=False),    #(-1,8,8,128)>(-1,3,3,128,128)>(-1,6,6,128)>46
             nn.BatchNorm2d(64),
             nn.ReLU(),
+            nn.Dropout(0.1),
         )
 
         self.avgpool = nn.AvgPool2d(6)                      #(-1,6,6,128)>(-1,1,1,128)>50
