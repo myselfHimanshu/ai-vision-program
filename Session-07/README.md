@@ -47,8 +47,8 @@
 
 ### Experiment Result
 
-- parameters : 11930
-- batch size : 128
+- parameters : 220,778
+- batch size : 64
 - lr : 0.01
 - dropout : none
 - batch-norm : none
