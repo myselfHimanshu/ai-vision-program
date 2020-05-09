@@ -50,11 +50,9 @@
 - parameters : 220,778
 - batch size : 64
 - lr : 0.01
-- dropout : none
-- batch-norm : none
-- epoch : 15
-- training acc : 98.85
-- testing acc : 98.50
+- epoch : 20
+- training acc : 95.00
+- testing acc : 85.55
 - [notebook link](https://github.com/myselfHimanshu/ai-vision-program/blob/master/Session-07/notebooks/002_main_85_55.ipynb)
 
 ### Validation Plots
