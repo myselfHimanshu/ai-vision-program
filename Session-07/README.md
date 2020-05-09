@@ -45,6 +45,10 @@
   <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-07/images/network.png"/>
 </p>
 
+### Notebook
+
+- [link](https://github.com/myselfHimanshu/ai-vision-program/blob/master/Session-07/notebooks/002_main_85_55.ipynb)
+
 ### Validation Plots
 
 #### Losses
