@@ -41,7 +41,9 @@
 
 ### Model Summary
 
-![network](https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-07/images/network.png)
+<p align="center">
+  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-07/images/network.png"/>
+</p>
 
 ### Validation Plots
 
