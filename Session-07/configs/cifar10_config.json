@@ -1,0 +1,25 @@
+{
+    "model_name" : "cifar-10",
+    "input_size" : [3,32,32],
+    "batch_size" : 64,
+    "lr" : 0.01,
+    "momentum" : 0.9,
+
+    "scheduler" : true,
+    "step_size" : 7,
+    "gamma" : 0.1,
+
+    "checkpoint_dir" : "checkpoints",
+    "acc_loss_data_file" : "checkpoints/models_acc_losses_data.json",
+
+    "l1_decay" : 0.0,
+    "l2_decay" : 0.005,
+
+    "epochs" : 20,
+
+    "in_channels" : 3,
+    "num_classes" : 10,
+
+    "num_workers" : 4
+
+}
