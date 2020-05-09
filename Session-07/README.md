@@ -72,3 +72,7 @@
 ### Misclassified Images
 
 ![network](https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-07/images/misclassified_images.png)
+
+### TODO
+
+- [] requirements.txt
