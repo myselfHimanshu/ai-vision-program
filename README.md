@@ -69,7 +69,7 @@ This repo contains source codes for, Building Intuition for Convolution Neural N
         - parameters used 7808
         - epochs=25
         - highest test accuaracy = 99.54%, epoch = 21st
-    - [regularization_notebook](https://github.com/myselfHimanshu/ai-vision-program/blob/master/Session-06/notebooks/MNIST_model_regularization.ipynb)
+    - [notebook link](https://github.com/myselfHimanshu/ai-vision-program/blob/master/Session-06/notebooks/MNIST_model_regularization.ipynb)
 
 </details>
 
@@ -85,12 +85,9 @@ This repo contains source codes for, Building Intuition for Convolution Neural N
     - one of the layers must use Dilated Convolution
     - use GAP
 - Result
-    - parameters : 220,778
-    - batch size : 64
-    - lr : 0.01
-    - epoch : 20
-    - training acc : 95.00
-    - testing acc : 85.55
+    - parameters used 220,778
+    - epochs = 20
+    - highest test acc = 85.55%
     - [notebook link](https://github.com/myselfHimanshu/ai-vision-program/blob/master/Session-07/notebooks/002_main_85_55.ipynb)
 
 </details>
