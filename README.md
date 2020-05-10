@@ -41,6 +41,7 @@ This repo contains source codes for, Building Intuition for Convolution Neural N
     - parameters used 13,402
     - epochs=20
     - highest test accuracy = 99.46%, epoch = 19th
+    - [notebook link](https://github.com/myselfHimanshu/ai-vision-program/blob/master/Session-04/final_submission/MNIST_model_04.ipynb)
 
 </details>
 
@@ -52,6 +53,7 @@ This repo contains source codes for, Building Intuition for Convolution Neural N
     - parameters used 7808
     - epochs=15
     - highest test accuracy = 99.43%, epoch = 11th 
+    - [notebook link](https://github.com/myselfHimanshu/ai-vision-program/blob/master/Session-05/after-work/MNIST_model_final.ipynb)
 
 </details>
 
@@ -67,5 +69,28 @@ This repo contains source codes for, Building Intuition for Convolution Neural N
         - parameters used 7808
         - epochs=25
         - highest test accuaracy = 99.54%, epoch = 21st
+    - [regularization_notebook](https://github.com/myselfHimanshu/ai-vision-program/blob/master/Session-06/notebooks/MNIST_model_regularization.ipynb)
+
+</details>
+
+<details>
+    <summary>Session-07</summary>
+
+- Advanced Convolution
+- Achieve an accuracy of greater than 80% on CIFAR-10 dataset
+    - architecture to C1C2C3C40 (basically 3 MPs)
+    - total params to be less than 1M
+    - RF must be more than 44
+    - one of the layers must use Depthwise Separable Convolution
+    - one of the layers must use Dilated Convolution
+    - use GAP
+- Result
+    - parameters : 220,778
+    - batch size : 64
+    - lr : 0.01
+    - epoch : 20
+    - training acc : 95.00
+    - testing acc : 85.55
+    - [notebook link](https://github.com/myselfHimanshu/ai-vision-program/blob/master/Session-07/notebooks/002_main_85_55.ipynb)
 
 </details>
