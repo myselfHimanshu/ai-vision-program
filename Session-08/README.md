@@ -4,13 +4,8 @@
 
 ### Objective
 
-- Achieve an accuracy of greater than 80% on CIFAR-10 dataset
-    - architecture to C1C2C3C40 (basically 3 MPs)
-    - total params to be less than 1M
-    - RF must be more than 44
-    - one of the layers must use Depthwise Separable Convolution
-    - one of the layers must use Dilated Convolution
-    - use GAP
+- Achieve an accuracy of greater than 85% on CIFAR-10 dataset
+    - architecture ResNet18
 
 ### Template Structure
 
@@ -18,7 +13,8 @@
 .
 ├── checkpoints // store trained models
 ├── configs // store networks configuration parameters
-│ └── cifar10_config.json
+│ ├── cifar10_config.json
+│ └── resnet_config.json
 ├── data // define our dataset
 │ └── transformation // custom transformation, e.g. data augmentation
 ├── dataset // the data loader
@@ -31,9 +27,10 @@
 │ └── cifar10agent.py
 ├── networks // define our network
 │ ├── cifar10net.py
+│ ├── resnet.py
 │ └── utils.py
 ├── notebooks // jupyter notebooks
-│ └── cifar10.ipynb
+│ └── 001_main_89_78.ipynb
 ├── README.md
 ├── requirements.txt
 └── utils.py
@@ -41,38 +38,42 @@
 
 ### Model Summary
 
-<p align="center">
-  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-07/images/network.png"/>
-</p>
+- Total params: 11,173,962
+- Forward/backward pass size (MB): 11.25
+- Params size (MB): 42.63
+- Estimated Total Size (MB): 53.89
 
 ### Experiment Result
 
-- parameters : 220,778
-- batch size : 64
-- lr : 0.01
-- epoch : 20
-- training acc : 95.00
-- testing acc : 85.55
-- [notebook link](https://github.com/myselfHimanshu/ai-vision-program/blob/master/Session-07/notebooks/002_main_85_55.ipynb)
+- parameters : 11,173,962
+- batch size : 128
+- lr : 0.1 (step lr, gamma=0.1, step_size=15)
+- epoch : 50
+- training acc : 98.65%
+- testing acc : 89.78%
+- [notebook link](https://github.com/myselfHimanshu/ai-vision-program/blob/master/Session-08/notebooks/001_main_89_78.ipynb)
 
 ### Validation Plots
 
 #### Losses
 
 <p align="center">
-  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-07/images/validation_loss.png"/>
+  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-08/images/validation_loss.png"/>
 </p>
 
 #### Accuracy
 
 <p align="center">
-  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-07/images/validation_acc.png"/>
+  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-08/images/validation_acc.png"/>
 </p>
 
 ### Misclassified Images
 
-![network](https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-07/images/misclassified_images.png)
+<p align="center">
+  <img src="https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-08/images/misclassified_images.png"/>
+</p>
 
 ### TODO
 
 - [ ] requirements.txt
+- [ ] custom_loss_function
