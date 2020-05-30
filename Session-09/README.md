@@ -62,26 +62,9 @@ Link to repo : [ULTRON-VISION](https://github.com/myselfHimanshu/ultron-vision)
 
 For grad cam, I have introduced some images from outside cifar-10 dataset. Prediction are logged in log file and results for grad cam are shown below:
 
-- CAR
-
-![](https://github.com/myselfHimanshu/ultron-vision/raw/master/experiments/cifar10_exp_04_resnet_album/stats/grad_output_car.png)
-
-- SHIP
-
-![](https://github.com/myselfHimanshu/ultron-vision/raw/master/experiments/cifar10_exp_04_resnet_album/stats/grad_output_ship.png)
-
-- TRUCK
-
-![](https://github.com/myselfHimanshu/ultron-vision/raw/master/experiments/cifar10_exp_04_resnet_album/stats/grad_output_truck.png)
-
-- DOG
-
-![](https://github.com/myselfHimanshu/ultron-vision/raw/master/experiments/cifar10_exp_04_resnet_album/stats/grad_output_dog.png)
-
-- BIRD
-
-![](https://github.com/myselfHimanshu/ultron-vision/raw/master/experiments/cifar10_exp_04_resnet_album/stats/grad_output_bird.png)
-
+|CAR|SHIP|TRUCK|DOG|BIRD|
+|--|--|--|--|--|
+|![](https://github.com/myselfHimanshu/ultron-vision/raw/master/experiments/cifar10_exp_04_resnet_album/stats/grad_output_car.png)|![](https://github.com/myselfHimanshu/ultron-vision/raw/master/experiments/cifar10_exp_04_resnet_album/stats/grad_output_ship.png)|![](https://github.com/myselfHimanshu/ultron-vision/raw/master/experiments/cifar10_exp_04_resnet_album/stats/grad_output_truck.png)|![](https://github.com/myselfHimanshu/ultron-vision/raw/master/experiments/cifar10_exp_04_resnet_album/stats/grad_output_dog.png)|![](https://github.com/myselfHimanshu/ultron-vision/raw/master/experiments/cifar10_exp_04_resnet_album/stats/grad_output_bird.png)|
 
 
 
