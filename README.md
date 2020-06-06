@@ -121,9 +121,28 @@ This repo contains source codes for, Building Intuition for Convolution Neural N
     - parameters : 11,173,962
     - epoch : 50
     - testing acc : 92.17%
-    - [code link](https://github.com/myselfHimanshu/ultron-vision)
+    - [work link](https://github.com/myselfHimanshu/ai-vision-program/tree/master/Session-09)
 
 </details>
 
+<details>
+    <summary>Session-10</summary>
 
+- Advanced Concepts : Training and Learning Rates
+- Add CutOut augmentation. It should come from your transformations (albumentations)
+- Implement LR Finder (for SGD, not for ADAM)
+- Implement ReduceLROnPlatea
+- Find best LR to train your model
+- Use SDG with Momentum
+- Train for 50 Epochs. 
+- Show Training and Test Accuracy curves
+- Target 88% Accuracy.
+- Run GradCAM on the any 25 misclassified images. Make sure to mention what is the prediction and what was the ground truth label.
+- Result
+    - parameters : 11,173,962
+    - epoch : 50
+    - testing acc : 89.80%
+    - [work link](https://github.com/myselfHimanshu/ai-vision-program/tree/master/Session-10)
+
+</details>
 
