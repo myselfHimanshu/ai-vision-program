@@ -51,6 +51,8 @@ Link to repo : [ULTRON-VISION](https://github.com/myselfHimanshu/ultron-vision/t
 
 ## Misclassified Images with Gradcam
 
+True and predicted values are written on top of images (can be quite small font in here, just click it to open in new tab)
+
 <p align="center">
   <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ultron-vision/raw/lr_finder/experiments/cifar10_exp-06_resnet_album_findlr/stats/misclassified_imgs.png"/>
 </p>
