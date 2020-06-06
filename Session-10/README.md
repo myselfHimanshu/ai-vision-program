@@ -47,7 +47,7 @@ Link to repo : [ULTRON-VISION](https://github.com/myselfHimanshu/ultron-vision/t
 
 |Loss|Accuracy|
 |--|--|
-|<p align="center"><img width="50%" height="50%" src="https://github.com/myselfHimanshu/ultron-vision/raw/lr_finder/experiments/cifar10_exp-06_resnet_album_findlr/stats/accuracy.png"/></p>|<p align="center"><img width="50%" height="50%" src="https://github.com/myselfHimanshu/ultron-vision/raw/lr_finder/experiments/cifar10_exp-06_resnet_album_findlr/stats/loss.png"/></p>|
+|<p align="center"><img width="80%" height="80%" src="https://github.com/myselfHimanshu/ultron-vision/raw/lr_finder/experiments/cifar10_exp-06_resnet_album_findlr/stats/accuracy.png"/></p>|<p align="center"><img width="80%" height="80%" src="https://github.com/myselfHimanshu/ultron-vision/raw/lr_finder/experiments/cifar10_exp-06_resnet_album_findlr/stats/loss.png"/></p>|
 
 ## Misclassified Images with Gradcam
 
