@@ -1,4 +1,4 @@
-# Session 09 - Advanced Concepts : Training and Learning Rates
+# Session 10 - Advanced Concepts : Training and Learning Rates
 
 ## Objective
 
