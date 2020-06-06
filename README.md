@@ -91,3 +91,39 @@ This repo contains source codes for, Building Intuition for Convolution Neural N
     - [notebook link](https://github.com/myselfHimanshu/ai-vision-program/blob/master/Session-07/notebooks/002_main_85_55.ipynb)
 
 </details>
+
+<details>
+    <summary>Session-08</summary>
+
+- Receptive Fields and Network Architectures
+- Achieve an accuracy of greater than 85% on CIFAR-10 dataset
+    - architecture ResNet18
+- Result
+    - parameters : 11,173,962
+    - epoch : 50
+    - training acc : 98.65%
+    - testing acc : 89.78%
+    - [notebook link](https://github.com/myselfHimanshu/ai-vision-program/blob/master/Session-08/notebooks/001_main_89_78.ipynb)
+
+</details>
+
+<details>
+    <summary>Session-09</summary>
+
+- Data Augmentation
+- Move transformations to Albumentations. 
+    - Apply ToTensor, HorizontalFlip, Normalize + More.
+- Test transforms are simple and only using ToTensor and Normalize
+- Implement GradCam function. 
+- Final code must use imported functions to implement transformations and GradCam functionality
+- Target Accuracy is 87%
+- Result
+    - parameters : 11,173,962
+    - epoch : 50
+    - testing acc : 92.17%
+    - [code link](https://github.com/myselfHimanshu/ultron-vision)
+
+</details>
+
+
+
