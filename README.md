@@ -111,12 +111,9 @@ This repo contains source codes for, Building Intuition for Convolution Neural N
     <summary>Session-09</summary>
 
 - Data Augmentation
-- Move transformations to Albumentations. 
-    - Apply ToTensor, HorizontalFlip, Normalize + More.
-- Test transforms are simple and only using ToTensor and Normalize
-- Implement GradCam function. 
-- Final code must use imported functions to implement transformations and GradCam functionality
-- Target Accuracy is 87%
+- Achieve an accuracy of greater than 87% on CIFAR-10 dataset
+    - Move transformations to Albumentations. 
+    - Implement GradCam function. 
 - Result
     - parameters : 11,173,962
     - epoch : 50
@@ -129,15 +126,10 @@ This repo contains source codes for, Building Intuition for Convolution Neural N
     <summary>Session-10</summary>
 
 - Advanced Concepts : Training and Learning Rates
-- Add CutOut augmentation. It should come from your transformations (albumentations)
-- Implement LR Finder (for SGD, not for ADAM)
-- Implement ReduceLROnPlatea
-- Find best LR to train your model
-- Use SDG with Momentum
-- Train for 50 Epochs. 
-- Show Training and Test Accuracy curves
-- Target 88% Accuracy.
-- Run GradCAM on the any 25 misclassified images. Make sure to mention what is the prediction and what was the ground truth label.
+- Achieve an accuracy of greater than 88% on CIFAR-10 dataset
+    - Add CutOut augmentation
+    - Implement LR Finder (for SGD, not for ADAM)
+    - Implement ReduceLROnPlatea
 - Result
     - parameters : 11,173,962
     - epoch : 50
