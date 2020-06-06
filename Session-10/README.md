@@ -43,17 +43,11 @@ Link to repo : [ULTRON-VISION](https://github.com/myselfHimanshu/ultron-vision/t
 - Best Validataion Accuracy : 89.80%
 - Total Epochs : 50
 
-## Accuracy Graph
+## Loss and Accuracy Graph
 
-<p align="center">
-  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ultron-vision/raw/lr_finder/experiments/cifar10_exp-06_resnet_album_findlr/stats/accuracy.png"/>
-</p>
-
-## Loss Graph
-
-<p align="center">
-  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ultron-vision/raw/lr_finder/experiments/cifar10_exp-06_resnet_album_findlr/stats/loss.png"/>
-</p>
+|Loss|Accuracy|
+|--|--|
+|<p align="center"><img width="50%" height="50%" src="https://github.com/myselfHimanshu/ultron-vision/raw/lr_finder/experiments/cifar10_exp-06_resnet_album_findlr/stats/accuracy.png"/></p>|<p align="center"><img width="50%" height="50%" src="https://github.com/myselfHimanshu/ultron-vision/raw/lr_finder/experiments/cifar10_exp-06_resnet_album_findlr/stats/loss.png"/></p>|
 
 ## Misclassified Images with Gradcam
 
