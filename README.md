@@ -129,7 +129,7 @@ This repo contains source codes for, Building Intuition for Convolution Neural N
 - Achieve an accuracy of greater than 88% on CIFAR-10 dataset
     - Add CutOut augmentation
     - Implement LR Finder (for SGD, not for ADAM)
-    - Implement ReduceLROnPlatea
+    - Implement ReduceLROnPlateau
 - Result
     - parameters : 11,173,962
     - epoch : 50
