@@ -38,6 +38,15 @@ Link to repo : [ULTRON-VISION](https://github.com/myselfHimanshu/ultron-vision/t
 
 ## RESULTS
 
+- Max-LR was found using LR-Range test
+    - Max learning rate : 0.007
+- For one_cycle policy, div_factor = 10
+    - initial learning rate : 0.007/10 = 0.0007
+- As no annihilation was required, final_div_factor = 1
+    - min learning rate : 0.0007
+
+The configuration for the experiment can be found in `config file`. LR range test is performed and code can be found in `CIFAR10 agent` file. The training and validation loss and accuracy logs can be found in `LOGS` file.
+
 - FILES
     - [Config FILE](https://github.com/myselfHimanshu/ultron-vision/blob/session-11/experiments/cifar10_session11-exp-002/summaries/config.txt)
     - [Albumenation transformation](https://github.com/myselfHimanshu/ultron-vision/blob/session-11/infdata/transformation/cifar10_tf.py)
