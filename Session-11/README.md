@@ -45,6 +45,10 @@ Link to repo : [ULTRON-VISION](https://github.com/myselfHimanshu/ultron-vision/t
 - As no annihilation was required, final_div_factor = 1
     - min learning rate : 0.0007
 
+<p align="center">
+  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ultron-vision/raw/session-11/experiments/cifar10_session11-exp-002/stats/lr.png"/>
+</p>
+
 The configuration for the experiment can be found in `config file`. LR range test is performed and code can be found in `CIFAR10 agent` file. The training and validation loss and accuracy logs can be found in `LOGS` file.
 
 - FILES
