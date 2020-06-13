@@ -78,7 +78,7 @@ True and predicted values are written on top of images (can be quite small font 
 
 ## ZIGZAG CURVE
 
-- Link to file : [ZIG-ZAG-Curve]()
+- Link to file : [ZIG-ZAG-Curve](https://github.com/myselfHimanshu/ai-vision-program/blob/master/Session-11/zigzag_curve/curve.ipynb)
 
 ![](https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-11/zigzag_curve/zigzag_curve.png)
     
