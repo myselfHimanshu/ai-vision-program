@@ -67,9 +67,6 @@ True and predicted values are written on top of images (can be quite small font 
 
 - Link to file : [ZIG-ZAG-Curve]()
 
-<p align="center">
-  <img width="50%" height="50%" src=""/>
-</p>
-
+![](https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-11/zigzag_curve/zigzag_curve.png)
     
 
