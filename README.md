@@ -138,3 +138,18 @@ This repo contains source codes for, Building Intuition for Convolution Neural N
 
 </details>
 
+<details>
+    <summary>Session-11</summary>
+
+- Super Convergence
+- Achieve an accuracy of greater than 90% on CIFAR-10 dataset
+    - 3Layer-Network
+    - Implement One Cycle Policy
+- Result
+    - parameters : 6,573,130
+    - epoch : 24
+    - testing acc : 91.02%
+    - [work link](https://github.com/myselfHimanshu/ai-vision-program/tree/master/Session-11)
+
+</details>
+
