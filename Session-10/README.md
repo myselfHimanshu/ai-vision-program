@@ -16,7 +16,7 @@
 
 The code has been shifted to new repo to keep things clean in this repo.
 
-Link to repo : [ULTRON-VISION](https://github.com/myselfHimanshu/ultron-vision/tree/lr_finder)
+Link to repo : [ULTRON-VISION](https://github.com/myselfHimanshu/ultron-vision)
 
 ## RESULTS
 
@@ -32,13 +32,13 @@ Link to repo : [ULTRON-VISION](https://github.com/myselfHimanshu/ultron-vision/t
     - ToTensor
 
 - FILES
-    - [Config FILE](https://github.com/myselfHimanshu/ultron-vision/blob/lr_finder/experiments/cifar10_exp-06_resnet_album_findlr/summaries/config.txt)
-    - [Albumenation transformation](https://github.com/myselfHimanshu/ultron-vision/blob/lr_finder/infdata/transformation/cifar10_tf.py)
-    - [Resnet 18 model](https://github.com/myselfHimanshu/ultron-vision/blob/lr_finder/networks/resnet_net.py)
-    - [CIFAR10 agent](https://github.com/myselfHimanshu/ultron-vision/blob/lr_finder/agents/cifar10_agent.py)
-    - [CIFAR10 inference agent](https://github.com/myselfHimanshu/ultron-vision/blob/lr_finder/inference/cifar_iagent.py)
-    - [LR finder module](https://github.com/myselfHimanshu/ultron-vision/blob/lr_finder/utils/lr_finder/lrfinder.py)
-    - [LOGS FILE](https://github.com/myselfHimanshu/ultron-vision/blob/lr_finder/experiments/cifar10_exp-06_resnet_album_findlr/logs/exp_debug.log)
+    - [Config FILE](https://github.com/myselfHimanshu/ultron-vision/blob/master/experiments/cifar10_exp-06_resnet_album_findlr/summaries/config.txt)
+    - [Albumenation transformation](https://github.com/myselfHimanshu/ultron-vision/blob/master/infdata/transformation/cifar10_tf.py)
+    - [Resnet 18 model](https://github.com/myselfHimanshu/ultron-vision/blob/master/networks/resnet_net.py)
+    - [CIFAR10 agent](https://github.com/myselfHimanshu/ultron-vision/blob/master/agents/cifar10_agent.py)
+    - [CIFAR10 inference agent](https://github.com/myselfHimanshu/ultron-vision/blob/master/inference/cifar_iagent.py)
+    - [LR finder module](https://github.com/myselfHimanshu/ultron-vision/blob/master/utils/lr_finder/lrfinder.py)
+    - [LOGS FILE](https://github.com/myselfHimanshu/ultron-vision/blob/master/experiments/cifar10_exp-06_resnet_album_findlr/logs/exp_debug.log)
 
 - Best Validataion Accuracy : 89.80%
 - Total Epochs : 50
@@ -47,14 +47,14 @@ Link to repo : [ULTRON-VISION](https://github.com/myselfHimanshu/ultron-vision/t
 
 |Loss|Accuracy|
 |--|--|
-|<p align="center"><img width="80%" height="80%" src="https://github.com/myselfHimanshu/ultron-vision/raw/lr_finder/experiments/cifar10_exp-06_resnet_album_findlr/stats/accuracy.png"/></p>|<p align="center"><img width="80%" height="80%" src="https://github.com/myselfHimanshu/ultron-vision/raw/lr_finder/experiments/cifar10_exp-06_resnet_album_findlr/stats/loss.png"/></p>|
+|<p align="center"><img width="80%" height="80%" src="https://github.com/myselfHimanshu/ultron-vision/raw/master/experiments/cifar10_exp-06_resnet_album_findlr/stats/accuracy.png"/></p>|<p align="center"><img width="80%" height="80%" src="https://github.com/myselfHimanshu/ultron-vision/raw/master/experiments/cifar10_exp-06_resnet_album_findlr/stats/loss.png"/></p>|
 
 ## Misclassified Images with Gradcam
 
 True and predicted values are written on top of images (can be quite small font in here, just click it to open in new tab)
 
 <p align="center">
-  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ultron-vision/raw/lr_finder/experiments/cifar10_exp-06_resnet_album_findlr/stats/misclassified_imgs.png"/>
+  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ultron-vision/raw/master/experiments/cifar10_exp-06_resnet_album_findlr/stats/misclassified_imgs.png"/>
 </p>
 
 
