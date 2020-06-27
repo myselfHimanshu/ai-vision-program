@@ -24,7 +24,7 @@ Link to repo : [ULTRON-VISION](https://github.com/myselfHimanshu/ultron-vision/t
 
 - For one_cycle policy, div_factor = 10
     - initial learning rate : 0.01/10 = 0.001
-- As no annihilation was required, final_div_factor = 100
+- Annihilation, final_div_factor = 100
     - min learning rate : 0.0001
 
 <p align="center">
