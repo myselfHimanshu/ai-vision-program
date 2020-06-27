@@ -33,7 +33,7 @@ Link to repo : [ULTRON-VISION](https://github.com/myselfHimanshu/ultron-vision/t
 
 The configuration for the experiment can be found in `config file`. The training and validation loss and accuracy logs can be found in `LOGS` file.
 
-**Steps for data creation and preprocessing: **
+<b> Steps for data creation and preprocessing: </b>
 
 - Download data using provided link.
 - Read annots file of each class in train folder and annots file in val folder and store into one pandas dataframe with columns as:
