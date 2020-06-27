@@ -66,7 +66,7 @@ True and predicted values are written on top of images (can be quite small font 
 
 ## Bounding Box Creation 
 
-- [Annotations File](https://github.com/myselfHimanshu/ai-vision-program/master/Session-12/DataPrep/annotations.json)
+- [Annotations File](https://github.com/myselfHimanshu/ai-vision-program/blob/master/Session-12/DataPrep/annotations.json)
 
 This is an instance from annotations file :
 
@@ -95,6 +95,6 @@ This is an instance from annotations file :
 
 ## Finding number of achor boxes to use using KMeans is explained in jupyter notebook
 
-- [Main File](https://github.com/myselfHimanshu/ai-vision-program/master/Session-12/DataPrep/detection.ipynb)
+- [Main File](https://github.com/myselfHimanshu/ai-vision-program/blob/master/Session-12/DataPrep/detection.ipynb)
 
 
