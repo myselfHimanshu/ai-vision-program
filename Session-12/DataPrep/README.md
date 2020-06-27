@@ -35,4 +35,4 @@ This is an instance from annotations file :
 
 ## Finding number of achor boxes to use using KMeans is explained in jupyter notebook
 
-- [Main File](https://github.com/myselfHimanshu/ai-vision-program/blob/master/Session-12/DataPrep/detection.ipynb)
+- [Main File](https://nbviewer.jupyter.org/github/myselfHimanshu/ai-vision-program/blob/master/Session-12/DataPrep/detection.ipynb)
