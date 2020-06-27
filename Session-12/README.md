@@ -31,9 +31,9 @@ Link to repo : [ULTRON-VISION](https://github.com/myselfHimanshu/ultron-vision/t
   <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ultron-vision/raw/session-12/experiments/tinyimagenet-exp-002/stats/lr.png"/>
 </p>
 
-The configuration for the experiment can be found in `config file`. LR range test is performed and code can be found in `CIFAR10 agent` file. The training and validation loss and accuracy logs can be found in `LOGS` file.
+The configuration for the experiment can be found in `config file`. The training and validation loss and accuracy logs can be found in `LOGS` file.
 
-Steps for data preprocessing: 
+**Steps for data creation and preprocessing: **
 
 - Download data using provided link.
 - Read annots file of each class in train folder and annots file in val folder and store into one pandas dataframe with columns as:
