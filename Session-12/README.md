@@ -28,34 +28,43 @@ Link to repo : [ULTRON-VISION](https://github.com/myselfHimanshu/ultron-vision/t
     - min learning rate : 0.0001
 
 <p align="center">
-  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ultron-vision/raw/session-11/experiments/cifar10_session11-exp-002/stats/lr.png"/>
+  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ultron-vision/raw/session-12/experiments/tinyimagenet-exp-002/stats/lr.png"/>
 </p>
 
 The configuration for the experiment can be found in `config file`. LR range test is performed and code can be found in `CIFAR10 agent` file. The training and validation loss and accuracy logs can be found in `LOGS` file.
 
-- FILES
-    - [Config FILE](https://github.com/myselfHimanshu/ultron-vision/blob/session-11/experiments/cifar10_session11-exp-002/summaries/config.txt)
-    - [Albumenation transformation](https://github.com/myselfHimanshu/ultron-vision/blob/session-11/infdata/transformation/cifar10_tf.py)
-    - [3Layer-Network](https://github.com/myselfHimanshu/ultron-vision/blob/session-11/networks/threelayer_net.py)
-    - [CIFAR10 agent](https://github.com/myselfHimanshu/ultron-vision/blob/session-11/agents/cifar10_agent.py)
-    - [CIFAR10 inference agent](https://github.com/myselfHimanshu/ultron-vision/blob/session-11/inference/cifar_iagent.py)
-    - [LOGS FILE](https://github.com/myselfHimanshu/ultron-vision/blob/session-11/experiments/cifar10_session11-exp-002/logs/exp_debug.log)
+Steps for data preprocessing: 
 
-- Best Validataion Accuracy : 91.02%
-- Total Epochs : 50
+- Download data using provided link.
+- Read annots file of each class in train folder and annots file in val folder and store into one pandas dataframe with columns as:
+    - image_name, class, x1, x2, x3, x4
+- Shuffle Pandas Dataframe
+- Use Sklearn train_test_split (70/30) split on the dataframe and save.
+- Build CustomDataset class for reading data provided train or val csv files and respective transforms. 
+
+- FILES
+    - [CustomDataset Building FILE](https://github.com/myselfHimanshu/ultron-vision/blob/session-12/infdata/dataset/tinyimagenet_data.py)
+    - [Config FILE](https://github.com/myselfHimanshu/ultron-vision/blob/session-12/experiments/tinyimagenet-exp-002/summaries/config.txt)
+    - [Albumenation transformation](https://github.com/myselfHimanshu/ultron-vision/blob/session-12/infdata/transformation/tinyimagenet_tf.py)
+    - [TinyImageNet agent](https://github.com/myselfHimanshu/ultron-vision/blob/session-12/agents/tinyimagenet_agent.py)
+    - [TinyImageNet inference agent](https://github.com/myselfHimanshu/ultron-vision/blob/session-12/inference/tinyimagenet_iagent.py)
+    - [LOGS FILE](https://github.com/myselfHimanshu/ultron-vision/blob/session-12/experiments/tinyimagenet-exp-002/logs/exp_debug.log)
+
+- Best Validataion Accuracy : 58.35%
+- Total Epochs : 30
 
 ## Loss and Accuracy Graph
 
 |Loss|Accuracy|
 |--|--|
-|<p align="center"><img width="80%" height="80%" src="https://github.com/myselfHimanshu/ultron-vision/raw/session-11/experiments/cifar10_session11-exp-002/stats/accuracy.png"/></p>|<p align="center"><img width="80%" height="80%" src="https://github.com/myselfHimanshu/ultron-vision/raw/session-11/experiments/cifar10_session11-exp-002/stats/loss.png"/></p>|
+|<p align="center"><img width="80%" height="80%" src="https://github.com/myselfHimanshu/ultron-vision/raw/session-12/experiments/tinyimagenet-exp-002/stats/loss.png"/></p>|<p align="center"><img width="80%" height="80%" src="https://github.com/myselfHimanshu/ultron-vision/raw/session-12/experiments/tinyimagenet-exp-002/stats/accuracy.png"/></p>|
 
 ## Misclassified Images with Gradcam
 
 True and predicted values are written on top of images (can be quite small font in here, just click it to open in new tab)
 
 <p align="center">
-  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ultron-vision/raw/session-11/experiments/cifar10_session11-exp-002/stats/misclassified_imgs.png"/>
+  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ultron-vision/raw/session-12/experiments/tinyimagenet-exp-002/stats/misclassified_imgs.png"/>
 </p>
 
 # Object Localization Data Prep 
