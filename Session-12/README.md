@@ -71,9 +71,9 @@ True and predicted values are written on top of images (can be quite small font 
 
 ## Dataset 
 
-- [50 Dogs Images](https://github.com/myselfHimanshu/ai-vision-program/master/Session-12/DataPrep/images/)
+- [50 Dogs Images](https://github.com/myselfHimanshu/ai-vision-program/tree/master/Session-12/DataPrep/images)
 
-## Bounding Box Creation 
+## Annotations Creation 
 
 - [Annotations File](https://github.com/myselfHimanshu/ai-vision-program/blob/master/Session-12/DataPrep/annotations.json)
 
