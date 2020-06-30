@@ -153,3 +153,19 @@ This repo contains source codes for, Building Intuition for Convolution Neural N
 
 </details>
 
+<details>
+    <summary>Session-12</summary>
+
+- Object Localization : YOLO (Recognition)
+- Use TinyImageNet dataset, create custom data loader with 70/30 split.
+- Achieve an accuracy of greater than 50% on TinyImageNet dataset
+    - ResNet18
+    - One Cycle Policy
+- Result
+    - parameters : 11,173,962
+    - epoch : 30
+    - testing acc : 58.35%
+    - [work link](https://github.com/myselfHimanshu/ai-vision-program/tree/master/Session-12)
+
+</details>
+
