@@ -4,7 +4,7 @@ import numpy as np
 # LOAD YOLO WEIGHTS
 net  = cv2.dnn.readNet("yolov3.weights","yolov3.cfg")
 classes = []
-image_name = "image03.jpg"
+image_name = "image01.jpg"
 
 with open("coco.names", "r") as f:
     classes = [line.strip() for line in f.readlines()]

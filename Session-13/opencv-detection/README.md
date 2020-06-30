@@ -15,5 +15,13 @@
 ### RESULTS
 
 <p align="center">
+  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-13/opencv-detection/image01.jpg"/>
+</p>
+
+<p align="center">
+  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-13/opencv-detection/image02.jpg"/>
+</p>
+
+<p align="center">
   <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-13/opencv-detection/image03.jpg"/>
 </p>
