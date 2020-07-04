@@ -31,7 +31,6 @@
 
 #### Training Examples
 
-
 <p align="center">
   <img width="50%" height="50%" src="https://github.com/myselfHimanshu/ai-vision-program/raw/master/Session-13/yolo-detection/images/train_batch0.png"/>
 </p>
