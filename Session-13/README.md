@@ -12,9 +12,7 @@
     - Training Custom Dataset for YOLOv3. 
     - Collect a dataset of 500 images and annotate them.
     - Download video from youtube which has above class. 
-    - Use ffmpeg to extract frames from the video. 
-    - Inter on these images using detect.py file.
-    - Use ffmpeg to convert the files in your output folder to video
+    - detect.py file on custom_images and mp4 video.
     - Upload the video to YouTube. 
     - Share the link of your YouTube video on LinkedIn or Instagram.
 
